@@ -63,14 +63,24 @@ The status command should show that Jenkins is active and running.
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
 3. Copy the password and paste it into the Jenkins setup wizard.
+
 ## Step 10: Complete Jenkins Setup
 Follow the instructions in the Jenkins setup wizard to complete the installation. You can install recommended plugins or select specific plugins based on your needs.
+<img width="956" alt="jenkinsSS2" src="https://github.com/RohanShingmode/Jenkins-installation-ubuntu/assets/104613881/136ff7cb-226a-4cfd-b524-c19e94c0d5a2">
+
+
 ## Step 11: Create Admin User
 Create an admin user by providing the required information.
+<img width="960" alt="JenkinsSS3" src="https://github.com/RohanShingmode/Jenkins-installation-ubuntu/assets/104613881/21186500-87de-4664-a088-5590819052b8">
+
+
 ## Step 12: Start Using Jenkins
 Once the setup is complete, you can start using Jenkins. Access Jenkins at http://your_server_ip:8080 in your web browser.
 Congratulations! You've successfully installed and set up Jenkins on your Ubuntu system. 
+<img width="960" alt="JenkinsSS4" src="https://github.com/RohanShingmode/Jenkins-installation-ubuntu/assets/104613881/71d3a047-17f6-4c0b-9113-c3f93d840baa">
+<img width="960" alt="JenkinsSS5" src="https://github.com/RohanShingmode/Jenkins-installation-ubuntu/assets/104613881/4cf11511-0137-4a67-b815-8b0958c71012">
 
 Reference Links:
 

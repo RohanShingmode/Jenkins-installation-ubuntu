@@ -55,6 +55,10 @@ The status command should show that Jenkins is active and running.
 ## Step 9: Unlock Jenkins
 ** If you are in Virtual Machine in inbound traffic allow 8080 TCP port **
 1. Open a web browser and go to http://your_server_ip:8080
+
+<img width="960" alt="JenkinsSS" src="https://github.com/RohanShingmode/Jenkins-installation-ubuntu/assets/104613881/2ffdcf46-9dfb-4781-9579-bf4b294bd42c">
+
+
 2. Retrieve the initial Jenkins administrator password:
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -68,3 +72,8 @@ Create an admin user by providing the required information.
 Once the setup is complete, you can start using Jenkins. Access Jenkins at http://your_server_ip:8080 in your web browser.
 Congratulations! You've successfully installed and set up Jenkins on your Ubuntu system. 
 
+Reference Links:
+
+[Install Jenkins on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04) 
+
+[Jenkins Install GPG Key configurations](https://www.jenkins.io/blog/2023/03/27/repository-signing-keys-changing/)
